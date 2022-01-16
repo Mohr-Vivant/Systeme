@@ -1,6 +1,6 @@
 #include "lib.h"
 
-char* mot_alea(void){
+char* mot_alea(){
 	//on ouvre le fichier txt qui contient notre liste de mots
 	FILE* fichier;
 	fichier = fopen("BDD.txt","r");

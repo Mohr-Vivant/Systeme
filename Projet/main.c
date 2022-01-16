@@ -5,11 +5,9 @@
 #include <string.h>
 #include <unistd.h>
 
-#ifndef MAX_SIZE
 #define MAX_SIZE 15
-#endif
 
-char* mot_alea(void){
+char* mot_alea(){
 	//on ouvre le fichier txt qui contient notre liste de mots
 	FILE* fichier;
 	fichier = fopen("BDD.txt","r");

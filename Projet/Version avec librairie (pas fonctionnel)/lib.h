@@ -5,9 +5,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#ifndef MAX_SIZE
 #define MAX_SIZE 15
-#endif
 
 char* mot_alea(void);
 
